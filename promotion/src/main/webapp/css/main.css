@@ -1,0 +1,487 @@
+@font-face{
+	font-family: 'pretendard';
+	src: url(font/Pretendard-Black.otf) format('embedded-opentype');
+}
+*{
+	margin: 0 auto;
+	font-family: pretendard;
+}
+html{
+	height: 100%;
+	overflow-x: hidden;
+	width: 100%;
+}
+body{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+.header{
+	width: 100%;
+	max-width: 1920px;
+	background: #FFFFFF;
+	z-index: 1;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	padding: 1em;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: 0px 4px 8px 0px #0000000D;
+}
+.fixed{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.headerUrl{
+	display: flex;
+	margin-right: 0;
+	padding-left: 0;
+}
+.headerUrl li{
+	list-style: none;
+	margin: 0 0.5em;
+	cursor: pointer;
+}
+.headerUrl li a{
+	text-decoration: none;
+	color: #242424;
+	font-size: 1.125rem;
+	border-bottom: 2px solid #565656;
+	padding-bottom: 0.5rem;
+}
+
+.mainSection{
+	padding: 5rem 1.25rem;
+	display: flex;
+	align-items: center;
+	max-width: 1200px;
+}
+.linkBtn{
+	margin: 2rem 0;
+	display: flex;
+}
+
+.linkBtn button{
+	box-shadow: 0px 4px 4px 0px #00000040;
+	background-color: #F2F6F5;
+	border: none;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	font-size: 1.125rem;
+	font-weight: 600;
+	padding: 1rem 2.5rem;
+}
+.linkBtn button:first-child{
+	margin-right: 1rem;
+}
+
+.araBox{
+	background-color: #89A8C4;
+	width: 100%;
+}
+.araDescription{
+	max-width: 1200px;
+	display: flex;
+	align-items: center;
+}
+.araTxt{
+	color: #FFFFFF;
+}
+.araTitle{
+	font-size: 2rem;
+	font-weight: 600;
+	margin: 1.5rem 0;
+}
+.araExplain{
+	font-size: 1.25rem;
+	line-height: 1.8rem;
+}
+.araContents, .araVision, .buyinContent, .discountBox, .buyinvision, .partnerShip, .promise{
+	padding: 7.5rem 0;
+	text-align: center;
+}
+.araArea, .buyinDescription,.discountArea, .visionArea, .partnerShip, .promiseArea{
+	max-width: 1200px;
+	width: 100%;
+}
+.araVision, .buyinvision{
+	background-color: #F9F9F9;
+	width: 100%;
+	box-sizing: border-box;
+}
+.title{
+	font-size: 2rem;
+	font-weight: 600;
+	margin-bottom: 2.5rem;
+}
+.description{
+	font-size: 1.25rem;
+	line-height: 1.8rem;
+}
+.araVisionList{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+}
+.araVisionBox{
+	background-color: #FFFFFF;
+	box-shadow: 0px 4px 12px 0px #89A8C440;
+	border-radius: 1rem;
+	text-align: center;
+	max-width: 316px;
+	padding: 1.5rem;
+}
+.visionTitle{
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+.visionTxt{
+	font-size: 1.125rem;
+	line-height: 1.5rem;
+}
+.buyinBox{
+	background-color: #4859A9;
+	width: 100%;
+}
+.buyinDescription{
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+	box-sizing: border-box;
+}
+.discountBox{
+	background-color: #EDF0FF;
+	width: 100%;
+}
+.discountArea, .visionArea{
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+}
+.visionBox{
+	max-width: 486px;
+}
+.buyinList{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+}
+.buyinVisionBox{
+	width: calc(100%/2 - 10px);
+	text-align: left;
+	margin-bottom: 2rem;
+}
+.buyinVisionBox h4{
+	border-bottom: 2px solid #565656;
+	font-size: 2rem;
+	color: #565656;
+	font-weight: 800;
+	margin-bottom: 0.4rem;
+}
+.buyinVisionBox p{
+	font-size: 1.125rem;
+	font-weight: 600;
+}
+.sequenceBox{
+	width: calc(100%/4);
+	box-shadow: 0px 4px 12px 0px #89A8C440;
+	background-color: #FFFFFF;
+	border-radius: 1rem;
+	max-width: 266px;
+}
+.numbering{
+	position: relative;
+	float: left;
+	padding: 0;
+}
+.numbering img{
+	width: 100%;
+	vertical-align: middle;
+}
+.numbering p{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	font-size: 1.25rem;
+}
+.sequenceTxt{
+	padding: 2.5rem;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+.sequenceTxt img{
+	padding-bottom: 1rem;
+}
+.sequenceTxt h4{
+	padding-bottom: 0.5rem;
+	font-size: 1.125rem;
+	font-weight: 600;
+}
+.sequenceTxt p{
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+.sequence{
+	display: flex;
+	padding: 2.5rem 0;
+}
+
+.document{
+	color: #4859A9;
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+.promise{
+	background: linear-gradient(99.95deg, #4859A9 0%, #628EB6 100%);
+}
+.promiseArea{
+	box-sizing: border-box;
+}
+.promiseTxt{
+	color: #FFFFFF;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 3rem;
+	padding-bottom: 4rem;
+}
+.tel{
+	padding: 1rem 2rem;
+	color: #4859A9;
+	font-size: 2rem;
+	font-weight: 600;	
+	background-color: #FFFFFF;
+	border: none;
+	text-align: center;
+	border-radius: 2rem;
+}
+.companyInfo{
+	background-color: #191F3F;
+	padding: 2.5rem 0;
+	text-align: center;
+	line-height: 1.5rem;
+}
+.companyInfo p{
+	color: #FFFFFF;
+	opacity: 0.8;
+	font-size: 0.9rem;
+}
+
+.araSlide, .buyinSlide{
+	max-width: 1200px;
+}
+li{
+	list-style: none;
+}
+.slick-prev, .slick-next{
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 32%;
+	cursor: pointer;
+}
+.slick-prev{
+	left: -60px;
+}
+.slick-next{
+	right: -60px;
+}
+.slick-dots{
+	display: flex;
+	padding-left: 0;
+	margin-top: 2rem;
+	max-width: 1000px;
+	justify-content: center;
+}
+.slick-dots li button{
+	border: 1px solid #DFDFDF;
+	background-color: #FFFFFF;
+	box-shadow: 0px 4px 8px 0px #0000000D;
+	box-sizing: border-box;
+	border-radius: 1.7rem;
+	font-weight: 600;
+	font-size: 1.125rem;
+	padding: 0.8rem 2rem;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background-color: #333333;
+	color: #FFFFFF;
+}
+
+
+@media (max-width: 768px){
+	.mediaImg{
+		width: 100%;
+	}
+	.mainTxt{
+		margin-left: 0;
+	}
+	.headerUrl li a{
+		font-size: 0.69rem;
+	}
+	.linkBtn button{
+		padding: 0.8rem 1.25rem;
+	}
+	.araTitle{
+		font-size: 1.5rem;
+	}
+	.araExplain{
+		font-size: 1rem;
+	}
+	.title{
+		font-size: 1.5rem;
+	}
+	.description{
+		font-size: 1rem;
+	}
+	.visionTitle{
+		font-size: 1.125rem;
+	}
+	.visionTxt{
+		font-size: 1rem;
+	}
+	
+	.mainSection{
+		flex-direction: column;
+	}
+	.araDescription{
+		flex-direction: column-reverse;
+		padding: 1rem;
+	}
+	.araVision{
+		padding: 1rem;
+	}
+	.araVisionBox{
+		margin-bottom: 1rem;
+	}
+	.visionBox{
+		max-width: 600px;
+	}
+	.buyinDescription{
+		flex-direction: column-reverse;
+		padding: 1rem;
+	}
+	.discountArea, .visionArea{
+		flex-direction: column;
+		padding: 1rem;
+	}
+	.sequence{
+		flex-wrap: wrap;
+	}
+	.promiseArea{
+		padding: 1rem;
+	}
+	.slick-slide img{
+		width: 100%;
+	}
+	.slick-prev,.slick-next{
+		display: none!important;
+	}
+	.araContents, .araVision, .buyinContent, .discountBox, .buyinvision, .partnerShip, .promise{
+		padding: 5rem 1rem;
+		box-sizing: border-box;
+	}
+	.companyInfo{
+		padding: 1rem;
+	}
+	.sequenceBox{
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	.slick-dots li button{
+		font-size: 0.7rem;
+		padding: 0.5rem;
+	}
+	/* .sequence{
+		flex-direction: column;
+	} */
+	.promiseTxt, .tel{
+		font-size: 1.25rem;
+	}
+	.companyInfo p{
+		font-size: 0.78rem;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px){
+	.mainSection{
+		flex-direction: column;
+	}
+	.mainTxt{
+		margin-left: 0;
+	}
+	.araDescription{
+		flex-direction: column-reverse;
+		padding: 1rem;
+	}
+	.araVision{
+		padding: 1rem;
+	}
+	.araVisionBox{
+		margin-bottom: 1rem;
+	}
+	.visionBox{
+		max-width: 600px;
+	}
+	.buyinDescription{
+		flex-direction: column-reverse;
+		padding: 1rem;
+	}
+	.discountArea, .visionArea{
+		flex-direction: column;
+		padding: 1rem;
+	}
+	.sequence{
+		flex-wrap: wrap;
+		max-width: 600px;
+	}
+	.sequenceBox{
+		width: 100%;
+		margin-bottom: 3rem;
+	}
+	.promiseArea{
+		padding: 1rem;
+	}
+	.slick-slide img{
+		width: 100%;
+	}
+	.slick-prev,.slick-next{
+		display: none!important;
+	}
+	.slick-dots li{
+		margin: 0 0.5rem;
+	}
+	.slick-dots li button{
+		font-size: 1rem;
+		padding: 1rem;
+	}
+	.araContents, .araVision, .buyinContent, .discountBox, .buyinvision, .partnerShip, .promise{
+		padding: 5rem 1rem;
+		box-sizing: border-box;
+	}
+	.promiseTxt, .tel{
+		font-size: 1.5rem;
+	}
+	.companyInfo{
+		padding: 1rem;
+	}
+	.companyInfo p{
+		font-size: 0.9rem;
+	}
+}
+@media (min-width: 1025px) and (max-width: 1920px){
+	.mainSection{
+		flex-direction: row-reverse;
+	}
+}

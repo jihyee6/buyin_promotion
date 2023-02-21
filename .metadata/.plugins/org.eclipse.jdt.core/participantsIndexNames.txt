@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\USER\Desktop\buyin_promotion\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\123591975.index
+\promotion\src\main\java

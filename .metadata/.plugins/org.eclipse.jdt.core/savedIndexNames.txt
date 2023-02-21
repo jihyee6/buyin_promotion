@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\USER\Desktop\buyin_promotion\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+4102818521.index
+1740007375.index

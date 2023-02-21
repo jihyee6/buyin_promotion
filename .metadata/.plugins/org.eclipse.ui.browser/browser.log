@@ -1,0 +1,103 @@
+
+10월 12, 2022 10:02:25.319 NEW SESSION
+10월 12, 2022 10:02:25.319 [24968:3920:1012/100225.318:ERROR:device_event_log_impl.cc(214)] [10:02:25.318] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+10월 12, 2022 10:03:23.349 [24968:20680:1012/100323.349:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+10월 12, 2022 10:24:49.624 [24968:18180:1012/102449.623:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2cs18.gcp.gvt2.com failed:
+10월 12, 2022 10:24:49.624 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 12, 2022 10:24:49.625 ERROR: Time is after notAfter
+10월 12, 2022 10:24:49.625 
+10월 12, 2022 10:24:49.625 
+10월 12, 2022 11:03:17.165 [24968:21444:1012/110317.165:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2c54.gcp.gvt2.com failed:
+10월 12, 2022 11:03:17.167 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 12, 2022 11:03:17.167 ERROR: Time is after notAfter
+10월 12, 2022 11:03:17.167 
+10월 12, 2022 11:03:17.168 
+10월 12, 2022 11:04:22.902 [24968:3920:1012/110422.902:ERROR:interface_endpoint_client.cc(689)] Message 0 rejected by interface blink.mojom.WidgetHost
+10월 12, 2022 12:16:25.926 [24968:12076:1012/121625.926:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2c31.gcp.gvt2.com failed:
+10월 12, 2022 12:16:25.927 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 12, 2022 12:16:25.927 ERROR: Time is after notAfter
+10월 12, 2022 12:16:25.927 
+10월 12, 2022 12:16:25.927 
+10월 12, 2022 12:17:53.422 [24968:9432:1012/121753.422:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2cs53.gcp.gvt2.com failed:
+10월 12, 2022 12:17:53.422 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 12, 2022 12:17:53.423 ERROR: Time is after notAfter
+10월 12, 2022 12:17:53.423 
+10월 12, 2022 12:17:53.423 
+10월 12, 2022 12:22:57.278 [24968:21332:1012/122257.277:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2c43.gcp.gvt2.com failed:
+10월 12, 2022 12:22:57.280 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 12, 2022 12:22:57.282 ERROR: Time is after notAfter
+10월 12, 2022 12:22:57.284 
+10월 12, 2022 12:22:57.285 
+10월 12, 2022 12:22:58.489 [24968:21332:1012/122258.489:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2c29.gcp.gvt2.com failed:
+10월 12, 2022 12:22:58.489 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 12, 2022 12:22:58.490 ERROR: Time is after notAfter
+10월 12, 2022 12:22:58.490 
+10월 12, 2022 12:22:58.490 
+10월 12, 2022 14:02:23.615 [24968:3920:1012/140223.614:ERROR:CONSOLE(1)] "Request Runtime.evaluate failed. {"code":-32602,"message":"uniqueContextId not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+10월 12, 2022 14:02:23.617 [24968:3920:1012/140223.616:ERROR:CONSOLE(1)] "uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+10월 12, 2022 14:02:23.617 [24968:3920:1012/140223.617:ERROR:CONSOLE(1)] "Extension server error: Inspector protocol error: uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+10월 12, 2022 14:03:06.534 [24968:3920:1012/140306.534:ERROR:CONSOLE(1)] "Request Runtime.evaluate failed. {"code":-32602,"message":"uniqueContextId not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+10월 12, 2022 14:03:06.535 [24968:3920:1012/140306.535:ERROR:CONSOLE(1)] "uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+10월 12, 2022 14:03:06.536 [24968:3920:1012/140306.535:ERROR:CONSOLE(1)] "Extension server error: Inspector protocol error: uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+
+10월 13, 2022 10:04:39.946 NEW SESSION
+10월 13, 2022 10:04:39.946 [18208:9576:1013/100439.945:ERROR:device_event_log_impl.cc(214)] [10:04:39.945] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+10월 13, 2022 10:05:36.986 [18208:23348:1013/100536.986:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+10월 13, 2022 10:19:38.918 [18208:9576:1013/101938.918:ERROR:CONSOLE(1)] "Request Runtime.evaluate failed. {"code":-32602,"message":"uniqueContextId not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+10월 13, 2022 10:19:38.919 [18208:9576:1013/101938.919:ERROR:CONSOLE(1)] "uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+10월 13, 2022 10:19:38.920 [18208:9576:1013/101938.919:ERROR:CONSOLE(1)] "Extension server error: Inspector protocol error: uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+10월 13, 2022 10:28:34.630 [18208:1856:1013/102834.629:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2cs52.gcp.gvt2.com failed:
+10월 13, 2022 10:28:34.630 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 13, 2022 10:28:34.630 ERROR: Time is after notAfter
+10월 13, 2022 10:28:34.631 
+10월 13, 2022 10:28:34.631 
+10월 13, 2022 11:00:52.403 [18208:14420:1013/110052.403:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+10월 13, 2022 11:00:52.404 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 13, 2022 11:00:52.404 ERROR: Time is after notAfter
+10월 13, 2022 11:00:52.404 
+10월 13, 2022 11:00:52.405 
+10월 13, 2022 11:00:59.991 [18208:14420:1013/110059.991:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2c50.gcp.gvt2.com failed:
+10월 13, 2022 11:00:59.992 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 13, 2022 11:00:59.992 ERROR: Time is after notAfter
+10월 13, 2022 11:00:59.992 
+10월 13, 2022 11:00:59.992 
+10월 13, 2022 11:13:26.760 [18208:9576:1013/111326.760:ERROR:CONSOLE(1)] "Extension server error: Operation failed: http://ekklim.kr/reserhotel/bookerinfo has no execution context", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+10월 13, 2022 11:13:26.761 [18208:9576:1013/111326.760:ERROR:CONSOLE(1)] "Extension server error: Operation failed: http://ekklim.kr/reserhotel/bookerinfo has no execution context", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+10월 13, 2022 11:20:50.910 [18208:9576:1013/112050.909:ERROR:CONSOLE(1)] "Extension server error: Operation failed: http://ekklim.kr/reserhotel/bookerinfo has no execution context", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+10월 13, 2022 11:20:50.910 [18208:9576:1013/112050.909:ERROR:CONSOLE(1)] "Extension server error: Operation failed: http://ekklim.kr/reserhotel/bookerinfo has no execution context", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+10월 13, 2022 11:25:23.28 [18208:25008:1013/112523.028:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2c53.gcp.gvt2.com failed:
+10월 13, 2022 11:25:23.29 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 13, 2022 11:25:23.29 ERROR: Time is after notAfter
+10월 13, 2022 11:25:23.30 
+10월 13, 2022 11:25:23.30 
+10월 13, 2022 11:25:23.194 [18208:25008:1013/112523.193:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2c2.gcp.gvt2.com failed:
+10월 13, 2022 11:25:23.194 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 13, 2022 11:25:23.194 ERROR: Time is after notAfter
+10월 13, 2022 11:25:23.195 
+10월 13, 2022 11:25:23.195 
+10월 13, 2022 12:56:50.410 [18208:25008:1013/125650.408:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+10월 13, 2022 12:56:50.411 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 13, 2022 12:56:50.413 ERROR: Time is after notAfter
+10월 13, 2022 12:56:50.413 
+10월 13, 2022 12:56:50.414 
+10월 13, 2022 13:31:49.40 [18208:15048:1013/133149.038:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2c17.gcp.gvt2.com failed:
+10월 13, 2022 13:31:49.42 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 13, 2022 13:31:49.43 ERROR: Time is after notAfter
+10월 13, 2022 13:31:49.43 
+10월 13, 2022 13:31:49.43 
+10월 13, 2022 14:22:47.420 [18208:15048:1013/142247.419:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+10월 13, 2022 14:22:47.420 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 13, 2022 14:22:47.421 ERROR: Time is after notAfter
+10월 13, 2022 14:22:47.421 
+10월 13, 2022 14:22:47.422 
+10월 13, 2022 15:05:36.989 [18208:20192:1013/150536.989:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+10월 13, 2022 15:31:24.249 [18208:7516:1013/153124.248:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for e2c3.gcp.gvt2.com failed:
+10월 13, 2022 15:31:24.251 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 13, 2022 15:31:24.252 ERROR: Time is after notAfter
+10월 13, 2022 15:31:24.253 
+10월 13, 2022 15:31:24.253 
+10월 13, 2022 15:32:34.201 [18208:7516:1013/153234.200:ERROR:cert_verify_proc_builtin.cc(670)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+10월 13, 2022 15:32:34.203 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+10월 13, 2022 15:32:34.204 ERROR: Time is after notAfter
+10월 13, 2022 15:32:34.205 
+10월 13, 2022 15:32:34.206 
